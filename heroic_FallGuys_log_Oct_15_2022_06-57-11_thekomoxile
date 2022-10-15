@@ -1,0 +1,199 @@
+System Info:
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: EndeavourOS KERNEL: 6.0.1-arch2-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 31.27 GiB Available: 23.58 GiB
+GRAPHICS: GPU0: NVIDIA GeForce RTX 2080 SUPER VRAM: 8192MB DRIVER: 520.56.06 
+PROTOCOL: wayland
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": false,
+	"preferSystemLibs": false,
+	"enableFsync": true,
+	"maxSharpness": 2,
+	"language": "",
+	"launcherArgs": "",
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"savesPath": "",
+	"showFps": false,
+	"showMangohud": true,
+	"targetExe": "/home/jimmy/Games/Heroic/FallGuys/FallGuys_client_game.exe",
+	"useGameMode": false,
+	"winePrefix": "/home/jimmy/Games/Heroic/Prefixes/FallGuys",
+	"wineVersion": {
+		"bin": "/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/wine",
+		"name": "Wine - lutris-GE-Proton7-28-x86_64",
+		"type": "wine",
+		"lib": "/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/lib64",
+		"lib32": "/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/lib",
+		"wineserver": "/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/wineserver",
+		"wineboot": "/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/wineboot"
+	},
+	"eacRuntime": true,
+	"battlEyeRuntime": false,
+	"gogSaves": []
+}
+
+Game launched at: Sat Oct 15 2022 06:57:11 GMT-0400 (Eastern Daylight Time)
+
+Launch Command: LD_PRELOAD= WINEPREFIX=/home/jimmy/Games/Heroic/Prefixes/FallGuys WINEFSYNC=1 PROTON_EAC_RUNTIME=/home/jimmy/.config/heroic/tools/runtimes/eac_runtime LD_LIBRARY_PATH=/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/lib:/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/lib64: /usr/local/bin/mangohud --dlsym /opt/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch 0a2d9f6403244d12969e11da6713137b --language en --override-exe /home/jimmy/Games/Heroic/FallGuys/FallGuys_client_game.exe  --wine /home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/wine --wine-prefix /home/jimmy/Games/Heroic/Prefixes/FallGuys
+
+Game Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching 0a2d9f6403244d12969e11da6713137b...
+
+Legendary update available!
+- New version: 0.20.29 - "Dark Energy (hotfix #3)"
+- Release summary:
+ [!] Adds workaround for Epic CDN issue (403 when downloading manifest)
+ [!] Fixes potential zero division error when verifying large files on fast SSDs
+See full changelog for additional details.
+- Release URL: https://legendary.gl/release/0.20.29
+! This update is recommended as it fixes major issues.
+
+- Download URL: https://legendary.gl/release/download/0.20.29/legendary
+fsync: up and running.
+wine: RLIMIT_NICE is <= 20, unable to use setpriority safely
+002c:fixme:winediag:LdrInitializeThunk wine-staging 7.0 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
+007c:err:wineusb:DriverEntry Failed to initialize Unix library, status 0xc0000135.
+007c:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\wineusb": c0000135
+003c:fixme:service:scmdatabase_autostart_services Auto-start service L"wineusb" failed to start: 126
+[2022-10-15 06:57:13.658] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-explorer.conf' [ not found ]
+[2022-10-15 06:57:13.658] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:13.659] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:13.659] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+00b4:fixme:hid:build_joystick_report_descriptor More than 8 absolute axes found, ignoring.
+014c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0148:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0144:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0150:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0154:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0158:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+015c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0160:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0164:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0168:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+016c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0170:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0174:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+017c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0180:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0178:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0184:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0188:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+018c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0190:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0194:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0198:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+019c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01a0:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01a4:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01a8:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01ac:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+012c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+01b0:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01b4:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01b8:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01bc:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01c0:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+01c4:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010F430 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010F4D0 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010F4E0 1 C) semi-stub
+012c:err:wldap32:DllMain No libldap support, expect problems
+012c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+012c:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010F220 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010F220 1 C) semi-stub
+01cc:fixme:cryptasn:CRYPT_GetBuiltinDecoder Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+01cc:fixme:cryptasn:CRYPT_GetBuiltinDecoder Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010CC40 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010CA10 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010C970 1 C) semi-stub
+[2022-10-15 06:57:14.554] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:14.554] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:14.554] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:14.554] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+[2022-10-15 06:57:14.776] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:14.776] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:14.776] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:14.776] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+[2022-10-15 06:57:14.940] [MANGOHUD] [info] [overlay.cpp:768] Uploading is disabled (permit_upload = 0)
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010C580 1 C) semi-stub
+012c:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000010C2B0 1 C) semi-stub
+012c:fixme:imm:ImmReleaseContext (000000000004005A, 000000006AACC990): stub
+[2022-10-15 06:57:15.158] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:15.158] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:15.158] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:15.158] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+[2022-10-15 06:57:15.261] [MANGOHUD] [info] [overlay.cpp:768] Uploading is disabled (permit_upload = 0)
+[2022-10-15 06:57:15.277] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:15.277] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:15.277] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:15.277] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+012c:fixme:wbemprox:client_security_SetBlanket 00000002419C3DA0, 000000006A9380D0, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+012c:fixme:wbemprox:client_security_Release 00000002419C3DA0
+[2022-10-15 06:57:15.468] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:15.468] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:15.468] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:15.468] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+01f8:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+012c:fixme:wbemprox:client_security_SetBlanket 00000002419C3DA0, 000000016067A550, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+012c:fixme:wbemprox:client_security_Release 00000002419C3DA0
+012c:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x00000030
+012c:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x00000030
+[2022-10-15 06:57:15.785] [MANGOHUD] [info] [overlay.cpp:768] Uploading is disabled (permit_upload = 0)
+0208:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+[2022-10-15 06:57:15.821] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:15.821] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:15.821] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:15.821] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+021c:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+012c:fixme:wbemprox:client_security_SetBlanket 00000002419C3DA0, 000000016067FE50, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+012c:fixme:wbemprox:client_security_Release 00000002419C3DA0
+012c:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x00000030
+012c:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x00000030
+012c:fixme:wbemprox:wbem_services_CreateInstanceEnum unsupported flags 0x00000030
+0220:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+0074:fixme:imm:ImeSetActiveContext (0x4803d0, 0): stub
+0074:fixme:imm:ImmReleaseContext (0000000000010020, 00000000004803D0): stub
+0224:fixme:thread:NtSetInformationThread Can't set other thread's platform description
+[2022-10-15 06:57:16.218] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine-FallGuys_client_game.conf' [ not found ]
+[2022-10-15 06:57:16.218] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.local/share/lutris/runners/wine/lutris-GE-Proton7-28-x86_64/bin/MangoHud.conf' [ not found ]
+[2022-10-15 06:57:16.218] [MANGOHUD] [info] [config.cpp:118] skipping config: '/home/jimmy/.config/MangoHud/wine64-preloader.conf' [ not found ]
+[2022-10-15 06:57:16.218] [MANGOHUD] [info] [config.cpp:123] parsing config: '/home/jimmy/.config/MangoHud/MangoHud.conf'
+[2022-10-15 06:57:16.341] [MANGOHUD] [info] [overlay.cpp:768] Uploading is disabled (permit_upload = 0)
+01f8:fixme:process:hack_append_command_line HACK: appending L" --use-gl=swiftshader --in-process-gpu" to command line.
+0288:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0288:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0288:fixme:heap:RtlSetHeapInformation unimplemented HeapEnableTerminationOnCorruption
+0288:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 0000000000B9EE90, 0000000000000000 0000000000B9EE8C
+0288:fixme:nls:get_dummy_preferred_ui_language (0x38 0000000000B9EE90 0000000000000000 0000000000B9EE8C) returning a dummy value (current locale)
+0288:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 0000000000B9EE90, 00000000093AADB0 0000000000B9EE8C
+0288:fixme:nls:get_dummy_preferred_ui_language (0x38 0000000000B9EE90 00000000093AADB0 0000000000B9EE8C) returning a dummy value (current locale)
+0288:fixme:winsock:WSALookupServiceBeginW (0000000000B9E940 0xff0 0000000000B9E9B8) Stub!
+0288:fixme:iphlpapi:NotifyAddrChange (Handle 0000000000B9EBC0, overlapped 00000000093B71D0): stub
+0288:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+02b8:fixme:wtsapi:WTSRegisterSessionNotification Stub 0000000000010080 0x00000001
+0288:fixme:system:DisplayConfigGetDeviceInfo Unimplemented packet type: 11
+0288:fixme:system:DisplayConfigGetDeviceInfo Unimplemented packet type: 11
+02c8:fixme:file:ReplaceFileW Ignoring flags 2
+0294:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 000000000C9CEED0) semi-stub
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_S_construct null not valid
+0138:fixme:file:CancelSynchronousIo (0000000000000080): stub
+0138:fixme:file:CancelSynchronousIo (0000000000000080): stub
+0138:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0288:fixme:wtsapi:WTSUnRegisterSessionNotification Stub 0000000000010080
+0288:fixme:iphlpapi:CancelIPChangeNotify (overlapped 00000000093B71D0): stub
+0288:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 0000000000B9FE80
+02fc:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+
